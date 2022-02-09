@@ -1,0 +1,192 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900);
+@import url("button.css");
+@import url("avatar.css");
+@import url("burger.css");
+@import url("responsive.css");
+
+.header{
+    margin-left: 10px;
+}
+.container-body{
+    width:1440px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+body{
+    font-family: "Poppins";
+}
+
+header {
+    text-align: left;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 700 ; 
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+}
+
+.presentation p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
+}
+
+.portfolio-landing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-element{
+margin-top: 40px;
+}
+
+.portfolio-img{
+    width: 450px;
+}
+.hobbies-title h3{
+    margin-top: 70px;
+    font-size: 50px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies-title p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
+    margin-top: -30px;
+    margin-bottom: -10px;
+}
+
+.hobbies-detailed{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hobbies-detailed-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin-top: 100px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #F8F8F8;
+    padding: 50px;
+}
+
+
+
+/*
+.hobbies-detailed-c1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hobbies-detailed-c2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+*/
+
+
+/*
+.portfolio-landing-c1
+    {
+        display: flex;
+    }
+
+.portfolio-landing-c1 > * {
+    flex: 1 1 0;
+}
+
+.portfolio-landing-c2
+    {
+        display: flex;
+    }
+
+.portfolio-landing-c2 > * {
+    flex: 1 1 0;
+}
+
+*/
+
+/* card portfolio 
+
+.card-trip {
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 15%;
+  }
+  
+  .card-trip > img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .card-trip h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .card-trip p {
+    font-size: 12px;
+    opacity: .7;
+    margin: 0;
+  }
+  
+  .card-trip .card-trip-infos {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+  }
+  
+  .card-trip-infos .card-trip-user {
+    position: absolute;
+    right: 16px;
+    top: -20px;
+    width: 40px;
+  }
+*/
+

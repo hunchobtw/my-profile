@@ -1,0 +1,171 @@
+<!-- Avoir un fichier index.html
+
+Comportant un tag html, head et body
+Structuré en div
+Ajouter le lien vers la style de feuilles dans le head (et vers les polices GoogleFonts)
+Ajouter au moins deux images
+Avoir des catégories distinctes (mes soft-skills et mes hard-skill par exemple)
+Avoir des liens vers des pages extérieures
+Utiliser deux couleurs personnalisées (Colorhunt ou autre) https://colorhunt.co/
+Utiliser deux polices depuis GoogleFont  https://fonts.google.com/
+Espacer un maximum pour que votre site respire (padding / margin) ⚠️ Pas de <br>
+Utiliser fontawesome pour intégrer 2 icônes minimum (réseaux sociaux) TUTO CI-DESSOUS ⬇
+Avoir un dossier images avec vos images
+
+Avoir un fichier style.css
+
+Contenant le design des tags de base (H1, p... et quelques classes (ex: profile_picture))
+Lier les fichiers composants en utilisant @import url()
+Avoir un dossier composants
+
+OBLIGATOIRE : Avoir un composant container personnalisé qui se place en dessous du body et permet d’espacer latéralement votre site. (utiliser margin)
+Avec au moins 2 composants personnalisés (avatar.css et bouton.css, banner —> https://uikit.lewagon.com/)
+Utiliser ces composants dans le index.html
+-->
+
+
+<head>
+    <title>Mon portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/eed26d7b34.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+    <body>
+        <div class="container-body">
+    
+        <header>
+            <div class="titre gauche">
+                <h1>
+                    Mon Portfolio
+                </h1>
+                <p>
+                    Découvrez mes réalisations
+                </p>
+            </div>
+        <!-- inserer menu burger -->
+        
+        </header>
+
+
+        <div class="photo">
+                <img src="img/Mask-Group-1.png" alt="photo de profil">
+        </div>
+
+        <div class="presentation">
+            <h2>Je suis Samuel Binisti</h2>
+            <p>Étudiant en Ecole de Commerce, je suis passionné par l'univers digital et j'aime développer <br> ma créativité ainsi que mes compétences en Marketing et Web-Design.<br>
+                Bienvenue sur mon site.</p>
+            <!--   <a href="#" download>Télécharger mon CV</a>  --> 
+        </div>
+
+            
+            <!--
+        CARD WAGON
+                <div class="card-trip">
+                    <div class="item portfolio 1">
+                        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+                        <div class="card-trip-infos">
+                        <div>
+                        <h2>Get Ur Tech</h2>
+                        <p>Marketing / Web-Design</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            -->
+
+            <div class="portfolio-landing">
+                    <div class="portfolio-element">
+                        <a href="https://samuel-binisti.me/portfolio/get-ur-tech/"><img src="img/geturtech.png" alt="element 1"class="portfolio-img"></a>
+                    </div>
+                    <div class="portfolio-element">
+                        <a href="https://samuel-binisti.me/portfolio/theophilyon/"><img src="img/théop.png" alt="element 2"class="portfolio-img"></a>
+                    </div>
+                    <div class="portfolio-element">
+                        <a href="https://samuel-binisti.me/portfolio/school-and-chill/"><img src="img/school.png" alt="element 3"class="portfolio-img"></a>
+                    </div>
+                    <div class="portfolio-element">
+                        <a href="https://samuel-binisti.me/portfolio/affaire-pc/"><img src="img/affairepc.png" alt="element 4"class="portfolio-img"></a>
+                    </div>
+                    <div class="portfolio-element">
+                        <a href="https://samuel-binisti.me/portfolio/watch-out/"><img src="img/watchout.png" alt="element 5"class="portfolio-img"></a>
+                    </div>
+                    <div class="portfolio-element">
+                        <a href="https://samuel-binisti.me/portfolio/mon-cv/"><img src="img/cv.png" alt="element 6"class="portfolio-img"></a>
+                    </div>
+                </div>
+            
+        
+            <div class="bouton-landing">
+                <p>Voir plus</p>
+                <span></span><span></span><span></span><span></span>
+            </div >
+
+            <div class="hobbies">
+                <div class="hobbies-title">
+                    <h3>
+                        Ce que j'aime faire
+                    </h3>
+                    <p>
+                        Perfectionniste, je traite chaque tâche qui m’est confiée sérieusement et je prends du plaisir quand il s’agit de :
+                    </p>
+                </div>
+
+                <div class="hobbies-detailed">
+
+                        <div class="hobbies-detailed-element">
+                            <i class="fa-solid fa-bullhorn"></i>
+                            <h4>Web Marketing</h4>
+                            <p>Créer des marques et établir des stratégies pour les rendre opérationnelles</p>
+                        </div>
+
+                        <div class="hobbies-detailed-element">
+                            <i class="fa-solid fa-desktop"></i>
+                            <h4>Interface Web</h4>
+                            <p>Créer des sites web à l'aide de CMS comme Wordpress</p>
+                        </div>
+                    
+                        <div class="hobbies-detailed-element">
+                            <i class="fa-solid fa-layer-group"></i>
+                            <h4>Design</h4>
+                            <p>Designer des produits, des landing pages ou des publicités pour les réseaux</p>
+                        </div>
+                
+                    
+                        <div class="hobbies-detailed-element">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <h4>Analyse</h4>
+                            <p>Comprendre et suivre l'impact des décisions antérieures et les ajuster si nécessaire</p>
+                        </div>
+
+                        <div class="hobbies-detailed-element">
+                            <i class="fa-brands fa-playstation"></i>
+                            <h4>Gaming</h4>
+                            <p>Passer mon temps libre sur les jeux vidéos</p>
+                        </div>
+
+                        <div class="hobbies-detailed-element">
+                            <i class="fa-solid fa-music"></i>
+                            <h4>Musique</h4>
+                            <p>Créer et écouter de la musique</p>
+                        </div>
+            </div>
+        </div>
+        </div>
+            <footer>
+            <h4>
+                Contactez-moi !
+            </h4>
+            <p><a href="mailto:samuel.binisti.pro@gmail.com">samuel.binisti.pro@gmail.com</a></p>
+            <p> 06 05 10 12 00 </p>
+            </footer>
+
